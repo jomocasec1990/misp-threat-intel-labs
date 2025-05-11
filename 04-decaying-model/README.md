@@ -23,7 +23,7 @@ Selec NIDS simple decaying model and clock on the play button.
 ### 🔬 Step 4: Viewing Applied Decay Scores
 Once configured, view the decayed score of various indicators on the Event page. This helps assess current threat relevancy.
 
-![Decay Scores in Events](screeshots/misp-decaying-result.png)
+![Decay Scores in Events](screenshots/misp-decaying-result.png)
 
 
 ## ✅ Outcome
