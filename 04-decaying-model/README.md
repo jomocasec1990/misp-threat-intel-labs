@@ -18,7 +18,7 @@ Adjust the polynomial decay function parameters like **Lifetime**, **Decay Speed
 ### 🧩 Step 3: Enable decaying model 
 Selec NIDS simple decaying model and clock on the play button.
 
-![Available Decaying Models](screenshots/misp-denable-decaying.png)
+![Available Decaying Models](screenshots/misp-enable-decaying.png)
 
 ### 🔬 Step 4: Viewing Applied Decay Scores
 Once configured, view the decayed score of various indicators on the Event page. This helps assess current threat relevancy.
