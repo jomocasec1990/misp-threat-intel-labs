@@ -1,35 +1,38 @@
+
 # 🧠 MISP Threat Intelligence Labs
 
-This repository contains a series of hands-on labs designed to demonstrate how to use [MISP](https://www.misp-project.org/) (Malware Information Sharing Platform) to create, enrich, and manage cyber threat intelligence (CTI). These labs simulate realistic attack scenarios and walk through how to structure, classify, and share threat data effectively using MISP features such as events, attributes, objects, taxonomies, galaxies, and automation tools.
+This repository contains practical labs for learning how to use the [Malware Information Sharing Platform (MISP)](https://www.misp-project.org/) for cyber threat intelligence (CTI) operations. Each chapter focuses on real-world use cases to help security analysts and CTI practitioners gain hands-on experience.
 
-## 📌 Purpose
+The labs cover the entire workflow from setting up a MISP environment to enriching and analyzing Indicators of Compromise (IOCs) through automation.
 
-The goal of this project is to help security analysts and CTI practitioners gain practical experience with:
+## 📌 What You Will Learn
 
-- Creating MISP events based on real-world phishing and malware campaigns  
-- Adding and classifying Indicators of Compromise (IOCs)
-- Using taxonomies (e.g., TLP, ThreatMatch) for data labeling
-- Mapping threats to MITRE ATT&CK and malware families using galaxy clusters
-- Organizing IOCs into contextualized objects (e.g., malicious files)
-- Automating IOC ingestion using MISP tools like freetext import
+- Deploying MISP with Docker on Ubuntu 20.04
+- Creating and managing threat events
+- Adding and classifying IOCs (IP, domains, URLs, files)
+- Applying taxonomies and galaxy clusters for threat classification
+- Using Malpedia and MITRE ATT&CK for TTP mapping
+- Automating IOC searches and statistics with the MISP API
+- Visualizing threat data using Python
 
-## 📁 Lab Topics
+## 📂 Repository Structure
 
-Each lab focuses on a key MISP capability:
+| Folder | Description |
+|---------|-------------|
+| `01-setup-docker` | Deploying MISP using Docker |
+| `02-adding-threat-intelligence` | Creating events, adding tags, galaxies, attributes, and objects |
+| `03-api-automation` | Automating tasks like retrieving stats, IOCs, and visualizing TTPs |
+| `screenshots/` | Supporting images for each lab |
 
-1. Creating and configuring MISP events  
-2. Adding taxonomy-based tags  
-3. Mapping threats to ATT&CK and malware (galaxies)  
-4. Populating events with IOCs (manual and automated)  
-5. Grouping intelligence using file and URL objects  
+## 🎯 Target Audience
 
-All labs are supported by screenshots and sample data to help you replicate each step in your own MISP instance.
+- Security analysts and SOC teams
+- Threat Intelligence (CTI) professionals
+- Students practicing threat enrichment workflows
+- Anyone learning to automate CTI processes using MISP
 
-## 🚀 Audience
+## 🚀 Requirements
 
-This repository is ideal for:
-
-- Security analysts  
-- SOC and CTI team members  
-- Red/Blue/Purple teamers  
-- Students and professionals studying cyber threat intelligence
+- Basic Linux command-line knowledge
+- Python 3.x environment for API automation labs
+- Working MISP instance (local via Docker or remote)
